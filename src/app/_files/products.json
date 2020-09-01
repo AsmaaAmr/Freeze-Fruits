@@ -1,0 +1,11 @@
+[
+    {"name":"Kiwi","image":"../../assets/images/kiwi.jpg"},
+    {"name":"Mango","image":"../../assets/images/mango.jpg"},
+    {"name":"Cantaloupe","image":"../../assets/images/cantaloupe.jpg"},
+    {"name":"blackberry","image":"../../assets/images/blackberry.jpg"},
+    {"name":"Strawberry","image":"../../assets/images/strawberry.jpg"},
+    {"name":"BLUEBERRY","image":"../../assets/images/blueberry.jpg"},
+    {"name":"Grapes","image":"../../assets/images/grapes.jpg"},
+    {"name":"Green Apple","image":"../../assets/images/green-apple.jpg"},
+    {"name":"Pineapple","image":"../../assets/images/pineapple.jpg"}
+]
