@@ -1,0 +1,262 @@
+#body.home {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#body.home div.header {
+	background-color: #f8f8f8;
+	margin: 0;
+	min-width: 300px;
+	max-width: none;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.header img {
+	display: block;
+	left: 50%;
+	margin: 0 auto 0 -563px;
+	padding: 0;
+	position: absolute;
+	width: 1126px;
+}
+#body.home div.header div {
+	margin: 0 auto;
+	min-width: 300px;
+	max-width: 960px;
+	min-height: 660px;
+	padding: 0;
+	position: relative;
+}
+#body.home div.header div a {
+	background: url(../../../assets/images/icons.png) no-repeat 0 -128px;
+	color: #FFFFFF;
+	display: block;
+	font-family: quicksand-bold-webfont;
+	font-size: 24px;
+	font-weight: normal;
+	height: 99px;
+	line-height: 24px;
+	margin: 0;
+	padding: 52px 0 0;
+	position: absolute;
+	right: 130px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 437px;
+	width: 156px;
+	z-index: 90;
+}
+#body.home div.body {
+	background-color: #eae7e8;
+	margin: 0;
+	min-width: 300px;
+	max-width: none;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.body div {
+	margin: 0 auto;
+	min-width: 300px;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0;
+}
+#body.home div.body #form {
+	margin: 0 auto;
+	min-width: 300px;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0;
+}
+#body.home div.body div div {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 40px;
+	width: 560px;
+}
+#body.home div.body div img {
+	display: block;
+	float: right;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#body.home div.body div div h1 {
+	color: #7A6666;
+	display: block;
+	font-family: lato-bold-webfont;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 47px 0 18px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 560px;
+}
+#body.home div.body div div h2 {
+	color: #E32A62;
+	display: block;
+	font-family: magra-bold-webfont;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 26px;
+	text-align: left;
+	text-transform: none;
+	width: 560px;
+}
+#body.home div.body div div p {
+	color: #7a6666;
+	display: block;
+	font-family: roboto-regular-webfont;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 560px;
+}
+#body.home div.body div div p a {
+	color: #7a6666;
+	display: block;
+	font-family: roboto-regular-webfont;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.home div.body div div p a:hover {
+	color: #c8c10d;
+}
+#body.home div.footer {
+	background-color: #c8c10d;
+	margin: 0;
+	max-width: none;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.footer div {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0;
+}
+#body.home div.footer div ul {
+	display: inline-block;
+	list-style: none outside none;
+	margin: 0;
+	padding: 36px 0 32px;
+	width: 100%;
+}
+#body.home div.footer div ul li {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 220px;
+}
+#body.home div.footer div ul li a {
+	background: url(../../../assets/images/icons.png) no-repeat;
+	display: block;
+	height: 44px;
+	margin: 0 auto 22px;
+	padding: 0;
+	width: 80px;
+}
+#body.home div.footer div ul li a.product {
+	background-position: 0 -372px;
+}
+#body.home div.footer div ul li a.about {
+	background-position: 0 -418px;
+}
+#body.home div.footer div ul li a.flavor {
+	background-position: 0 -280px;
+}
+#body.home div.footer div ul li a.contact {
+	float: none;
+	background-position: 0 -326px;
+}
+#body.home div.footer div ul li h1 {
+	color: #ffffff;
+	font-family: lato-regular-webfont;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+    form, input,textarea, p {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    }
+    .h11 {
+    font-weight: 400;
+    }
+    h4 {
+    margin: 22px 0 4px;
+    color: #095484;
+    }
+    .testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+    }
+    form {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc;
+    }
+    input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    }
+    input:hover, textarea:hover {
+    outline: none;
+    border: 1px solid #095484;
+    }
+    span {
+    color: red;
+    }
+    textarea {
+    width: calc(100% - 6px);
+    }
+    div.btn-block {
+        margin-top: 200px;
+    }
+    button {
+    width: 190px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #0666a3;
+    }
+

@@ -1,0 +1,38 @@
+<div id="body">
+  <div class="header">
+    <div>
+      <h1>Our products</h1>
+    </div>
+  </div>
+  <div style="margin-right: 210px; min-width: 300px">
+    <ul style="display: flex; flex-wrap: wrap; padding-left: 0; min-width: 300px">
+      <li style="flex:25.333333%; min-width: 300px;" *ngFor="let item of products">
+        <app-product-item [productItem]="item"></app-product-item>
+    </li>
+    </ul>
+  </div>
+  <div >
+  <form action="/Products">
+    <h1 class="h11">Add Product</h1>
+    <br/>
+    <h4>Product ID</h4>
+    <input class="first-name" type="number" name="ID" name="idAdd" placeholder="Enter ID" [(ngModel)]="idAdd"/>
+    <h4>Name</h4>
+    <input class="first-name" type="text" placeholder="Enter Name" name="nameAdd" [(ngModel)]="nameAdd"/>
+    <h4>Image</h4>
+    <input type="file" [(ngModel)]="imageAdd" name="imageAdd" id="imageAdd" (change)="image($event)" />
+    <div class="btn-block" id="btn-block">
+        <button type="submit" href="/Products" (click)="Add()">Add</button>
+    </div>
+</form>
+<form action="/Products" style="margin-top: -470px;margin-left: 500px;height: 430px;">
+  <h1 class="h11">Delete Product</h1>
+  <br/>
+  <h4>Product ID</h4>
+  <input class="first-name" type="number" name="ID" name="idDelete" placeholder="Enter ID" [(ngModel)]="idDelete"/>
+  <div class="btn-block" id="btn-block">
+      <button type="submit" href="/Products" (click)="Delete()" style="margin-top: -150px;">Delete</button>
+  </div>
+</form>
+</div>
+</div>

@@ -1,0 +1,22 @@
+<div id="body">
+  <div class="header">
+    <div>
+      <h1>Product Details</h1>
+    </div>
+  </div>
+  <div style="margin-right: 210px; min-width: 300px">
+    <ul
+      style="display: flex; flex-wrap: wrap; padding-left: 0; min-width: 300px"
+    >
+      <li style="flex: 25.333333%; min-width: 300px">
+        <img src="{{ product.image }}" />
+        <h2 style="text-align: center; margin-right: 20px">
+          {{ product.name }}
+        </h2>
+        <h2 style="text-align: center; margin-right: 5px">
+          Product ID : {{ product.id }}
+        </h2>
+      </li>
+    </ul>
+  </div>
+</div>
